@@ -1,0 +1,12 @@
+{
+  "name": "node_ppt",
+  "version": "1.0.0",
+  "description": "Semua berdasarkan PPT",
+  "main": "Salinan_h1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon Salinan_h6-expressJS.js"
+  },
+  "author": "PutraZeus",
+  "license": "ISC"
+}
