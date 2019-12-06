@@ -13,6 +13,14 @@ const kuadratPromise = promisify(kuadrat);
 
 let nilai = 5;
 
-kuadratPromise(nilai)
-    .then(hasil => console.log(hasil))
-    .catch(error => console.log(error));
+async function kuadratAsycn() {
+    try {
+        const hasil = await kuadratPromise(nilai);
+        console.log(hasil);
+    }
+    catch (error) {
+        console.error(error);
+    }
+}
+
+kuadratAsycn();
